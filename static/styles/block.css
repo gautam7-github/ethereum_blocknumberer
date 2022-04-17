@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	color: #aef78e;
+	/* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+	background-color: #25283D;
+	scroll-behavior: smooth;
+}
+.block {
+	font-size: 35vh;
+	font-family: "Poiret One", cursive;
+}

@@ -1,3 +1,4 @@
+from time import sleep
 import config
 from web3 import Web3
 from flask import Flask, render_template
@@ -22,9 +23,15 @@ def getBlock():
 
 
 @app.route("/")
+def home():
+    return render_template("index.html")
+
+
+@app.route("/getBlock")
 def index():
     print(BLOCK)
-    return render_template("index.html", block=BLOCK)
+    sleep(10)
+    return render_template("block.html", block=BLOCK)
 
 
 app.run(debug=True)

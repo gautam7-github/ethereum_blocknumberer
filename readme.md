@@ -4,7 +4,12 @@
 
 Made for Experimentation with Web3.py library
 
-![screenshot](screenshot.jpg)
+## Screenshot(s)
+
+- Loading Screen
+![screenshot](screenshots/screenshot2.jpg)
+- Block Screen
+![screenshot](screenshots/screenshot.jpg)
 
 ## Tech Stack
 - Python
@@ -13,3 +18,4 @@ Made for Experimentation with Web3.py library
 - HTML5
 - CSS3
 - Bootstrap 5
+- JavaScript

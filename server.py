@@ -1,8 +1,9 @@
 from time import sleep
-import config
-from web3 import Web3
-from flask import Flask, render_template
 
+from flask import Flask, render_template
+from web3 import Web3
+
+import config
 
 app = Flask(__name__)
 BLOCK = None

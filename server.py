@@ -29,8 +29,7 @@ def home():
 
 @app.route("/getBlock")
 def index():
-    print(BLOCK)
-    sleep(10)
+    # print(BLOCK)
     return render_template("block.html", block=BLOCK)
 
 

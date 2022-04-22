@@ -14,3 +14,7 @@ img {
 	height: 10vmax;
 	width: 10vmax;
 }
+.parent{
+	display: flex;
+	flex-direction: column;
+}

@@ -14,15 +14,3 @@ img {
 	height: 10vmax;
 	width: 10vmax;
 }
-
-.block {
-	display: grid;
-	position: relative;
-	grid-auto-rows: auto;
-}
-.block .image{
-	grid-row: 1;
-}
-.block .text{
-	grid-row: 2;
-}

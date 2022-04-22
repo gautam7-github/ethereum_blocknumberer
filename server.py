@@ -30,7 +30,6 @@ def home():
 
 @app.route("/getBlock")
 def index():
-    # print(BLOCK)
     return render_template("block.html", block=BLOCK)
 
 
